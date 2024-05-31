@@ -1,0 +1,57 @@
+body {
+	background: black;
+}
+
+/* Esto sirve para ver los elementos del div en rojo
+* {
+	border: 1px dashed red;
+	min-height: 10px;
+}*/
+
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+	padding: 10px;
+}
+/*Hace que los elementos del div se alineen horizontalmente*/
+.postcard-header {
+	display: flex;
+}
+
+.postcard-header img {
+	width: 60px;
+	height: 60px;
+}
+
+.postcard-header h1 {
+	width: 100%;
+	height: auto;
+}
+
+.postcard-body {
+	display: flex;
+}
+
+.body-left p:first-child {
+	margin-top: 0px;
+}
+
+.body-right {
+	padding: 10px;
+}
+
+input {
+	border: none;
+	border-bottom: 1px solid gray;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+button {
+	background: gray;
+	padding: 5px;
+}
